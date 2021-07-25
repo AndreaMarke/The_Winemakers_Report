@@ -1,0 +1,69 @@
+style.css
+
+.body {
+    background-color: #043276;
+}
+.title {
+    background-color: white;
+    border: lightgrey;
+    border-width: 2px;
+
+}
+
+.box {
+    max-width: 500 px;
+    margin: 15px;
+
+ }
+
+.boxConent {
+    justify-content: flex-start;
+    border: solid 1px lightgray;
+    padding: 20px;
+    align-items: center;
+    max-width: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .boxText{
+     flex-wrap: wrap;
+ }
+ 
+ .prototype {
+    display: flex;
+    background-color:lightgrey;
+    border: 3px;
+    border-color: darkblue;
+    height: 500px;
+    width: 800;
+
+ }
+
+h3{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+}
+
+.bodyCopy {
+    font-family: 'Inter', sans-serif;
+}
+
+.copyrightText{
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+}
