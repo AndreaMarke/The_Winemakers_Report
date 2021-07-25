@@ -1,7 +1,8 @@
 style.css
 
-.body {
-    background-color: #043276;
+.mainBody {
+    background-color: gray;
+
 }
 .title {
     background-color: white;
@@ -12,19 +13,20 @@ style.css
 
 .box {
     max-width: 500 px;
-    margin: 15px;
-
+    margin: 45px 15px 15px 15px;
  }
 
 .boxConent {
     justify-content: flex-start;
-    border: solid 1px lightgray;
+    border: solid 2px darkgrey;
     padding: 20px;
     align-items: center;
     max-width: 850px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
+    box-shadow: darkgrey 20px;
  }
 
  .logo {
