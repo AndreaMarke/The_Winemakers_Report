@@ -40,11 +40,14 @@ style.css
  
  .prototype {
     display: flex;
-    background-color:lightgrey;
+    background-color:black;
     border: 3px;
     border-color: darkblue;
-    height: 500px;
-    width: 800;
+    height: 460px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+
 
  }
 
@@ -67,4 +70,29 @@ p {
 .copyrightText{
     font-family: 'Inter', sans-serif;
     font-size: small;
+}
+
+.email {
+    font-family: 'Inter', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+#fname{ 
+    width: 250px;
+}
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: #043276;
+    color: white;
+    border-color: #043276;
+    margin: 4px;
+    border-radius: 20px;
+
 }
